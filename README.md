@@ -6,6 +6,7 @@
 
 localhost:8080/persona?nombreCompleto=A B C D&fechaNacimiento=dd/MM/yyyy"
 #REEMPLAZOS:
+
 -A: Primer Nombre
 
 -B: Segundo Nombre
