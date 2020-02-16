@@ -5,6 +5,7 @@
 -Abrir navegador web (Probado con FireFox 72.0.2) y tipear lo siguiente en la barra de navegación:
 
 localhost:8080/persona?nombreCompleto=A B C D&fechaNacimiento=dd/MM/yyyy"
+
 #REEMPLAZOS:
 
 -A: Primer Nombre
