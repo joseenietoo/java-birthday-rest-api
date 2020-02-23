@@ -1,25 +1,36 @@
+#REQUISITOS:
+
+- Tener instalado IntelliJ IDEA 2019.2.3 o algún IDE
+
+- Tener instalado Apache HTTP Server 2.4.41 o algun servidor web local
+
 #INSTRUCCIONES:
 
--Clonar proyecto git a carpeta "NOMBRE_DE_CARPETA" y cargar proyecto en algún IDE (Probado con IntelliJ IDEA 2019.2.3)
+- Clonar proyecto git a la raiz del servidor web local
 
--Abrir navegador web (Probado con FireFox 72.0.2) y tipear lo siguiente en la barra de navegación:
+- Iniciar Apache HTTP Server 2.4.41
+ 
+ - Abrir IntelliJ IDEA 2019.2.3
+ 
+ - Abrir proyecto PRUEBA
 
-localhost:8080/persona?nombreCompleto=A B C D&fechaNacimiento=dd/MM/yyyy"
+- Run al proyecto (Deploy en tomcat embebido)
 
-#REEMPLAZOS:
+- Abrir navegador web (Probado con FireFox 72.0.2) y tipear lo siguiente en la barra de navegación:
 
--A: Primer Nombre
+http://localhost/PRUEBA
 
--B: Segundo Nombre
+#COMO USAR:
 
--C: Primer Apellido
+Completar Formulario:
 
--D: Segundo Apellido
+- Nombre Completo (ej: JOSE TOMAS NIETO VEGA)
 
--dd: día del mes con dos dígitos ej: 02 (Febrero)
+- Fecha de Nacimiento (dd/MM/yyyy)
 
--MM: número del mes en el año con dos dígitos ej: 07 (Julio)
+Hacer click en el boton "Consultar"
 
--yyyy: año con cuatro digitos ej: 1993
+Listo!
+
 
 

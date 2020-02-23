@@ -3,15 +3,15 @@ package cl.jose.persona.models;
 public class Persona {
 
     private final long id;
-    private final String nombre;
-    private final String apellido;
+    private final String primerNombre;
+    private final String primerApellido;
     private final String fechaNacimiento;
     private final int edad;
 
-    public Persona(long id, String nombre, String apellido, String fechaNacimiento, int edad, int diasRestantes) {
+    public Persona(long id, String primerNombre, String primerApellido, String fechaNacimiento, int edad, int diasRestantes) {
         this.id = id;
-        this.nombre = nombre;
-        this.apellido = apellido;
+        this.primerNombre = primerNombre;
+        this.primerApellido = primerApellido;
         this.fechaNacimiento = fechaNacimiento;
         this.edad = edad;
         this.diasRestantes = diasRestantes;
@@ -23,12 +23,10 @@ public class Persona {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
+    public String getPrimerNombre() { return primerNombre; }
 
-    public String getApellido() {
-        return apellido;
+    public String getprimerApellido() {
+        return primerApellido;
     }
 
     public String getFechaNacimiento() {
@@ -38,7 +36,7 @@ public class Persona {
     public int getEdad() {
         return edad;
     }
-
+    
     public int getDiasRestantes() {
         return diasRestantes;
     }
@@ -47,8 +45,8 @@ public class Persona {
     public String toString() {
         return "Persona{" +
                 "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
+                ", primerNombre='" + primerNombre + '\'' +
+                ", primerApellido='" + primerApellido + '\'' +
                 ", fechaNacimiento=" + fechaNacimiento +
                 ", edad=" + edad +
                 ", diasRestantes=" + diasRestantes +
