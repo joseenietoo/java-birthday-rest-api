@@ -12,7 +12,7 @@
  
  - Abrir IntelliJ IDEA 2019.2.3
  
- - Abrir proyecto PRUEBA
+ - Abrir proyecto
 
 - Run al proyecto (Deploy en tomcat embebido)
 
