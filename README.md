@@ -18,7 +18,7 @@
 
 - Abrir navegador web (Probado con FireFox 72.0.2) y tipear lo siguiente en la barra de navegación:
 
-http://localhost/PRUEBA
+http://localhost/servicio-master
 
 #COMO USAR:
 
