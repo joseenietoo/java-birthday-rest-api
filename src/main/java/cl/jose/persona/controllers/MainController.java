@@ -1,7 +1,6 @@
 package cl.jose.persona.controllers;
 
 import cl.jose.persona.models.Persona;
-import org.joda.time.DateTime;
 import org.joda.time.Days;
 import org.joda.time.LocalDate;
 import org.joda.time.format.DateTimeFormat;
@@ -9,6 +8,12 @@ import org.joda.time.format.DateTimeFormatter;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import org.json.JSONObject;
+
 import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
